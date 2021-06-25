@@ -1,39 +1,39 @@
-**[Nego.db]**
+# **[Nego.db]** - Database Modülü
 
-Verileri JSON Halinde Tutan Kullanışlı Database Mödülü
+# Verileri JSON Halinde Tutan Kullanışlı Database Mödülü
 
-Kurulum
+ Kurulum:
 ```
 const nego = require("nego.db");
 const db = new nego("./services/Database.json");
 
 //Veriyi Ekleme
 
-db.add("Value","Data");
+`db.add("Value","Data");`
 
 //Veriyi Silme
 
-db.delete("Value");
+`db.delete("Value");`
 
 
 
 //Veriyi Çekmek
 
-db.fetch("Value");
+`db.fetch("Value");`
 
 //ÇIKTI => "Veri"
 
 //Tüm Veriyi Çekmek
-db.fetchAll("Value");
+`db.fetchAll("Value");`
 
 //ÇIKTI => "DATA"
 
 //Veriyi YEDEKLEME
-db.backup("dosyaismi");
+`db.backup("dosyaismi");`
 
 //veriyi pushlatma
 
-db.push("array","data")
+`db.push("array","data")`
 
 ```
 
