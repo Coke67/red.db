@@ -37,5 +37,5 @@ const db = new nego("./services/Database.json");
 
 ```
 
-Discord : [TIKLA](https://discord.gg/aNnEfTbhve)
+Discord : [TIKLA](https://discord.gg/eQpQthhhPd)
 
