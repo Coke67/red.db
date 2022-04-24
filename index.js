@@ -6,7 +6,7 @@ let dosya;
 class nego {
     constructor(input){ 
         //Json Dosyasi Ayarlama
-    if(input && typeof input != 'string' ) throw new TypeError("[Nego.db] Json Dosyasini Belirtmedin")
+    if(input && typeof input != 'string' ) throw new TypeError("[Red.db] Json Dosyasini Belirtmedin")
     input  = input ? input: "database.json"
        useful = input.endsWith(".json") ? input : `${input}.json`;
 dosya = JSON.parse(fs.readFileSync(useful,"utf8"))};
