@@ -1,11 +1,11 @@
-# **[Nego.db]** - Database Modülü
+# **[Red.db]** - Database Modülü
 
 # Verileri JSON Halinde Tutan Kullanışlı Database Mödülü
 
  Kurulum:
 ```
-const nego = require("nego.db");
-const db = new nego("./services/Database.json");
+const red = require("nego.db");
+const db = new red("./red/Database.json");
 
 //Veriyi Ekleme
 
